@@ -1,0 +1,17 @@
+Package: Wind
+Title: Wind: weighted indexes for clustering evaluation
+Version: 0.9.1
+Date: 2019-08-16
+Author: Zhijin Wu <zhijin_wu@brown.edu>, Hao Wu <hao.wu@emory.edu>
+Maintainer: Zhijin Wu <zhijin_wu@brown.edu>, Hao Wu <hao.wu@emory.edu>
+Depends: R (>= 3.5), infotheo, matrixStats
+Suggests: BiocStyle, knitr, rmarkdown
+Description: This package provide two new metrics for evaluating cell clustering results
+	 from single cell RNA-seq data: weighted Rand index (wRI)
+	 and weighted normalized mutual information (wNMI). The new metrics
+	 take into account the hierarchical structure of cell types 
+	 in evaluating the clustering result. 
+License: GPL
+VignetteBuilder: knitr
+biocViews: Sequencing, RNASeq, SingleCell
+
